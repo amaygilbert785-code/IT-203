@@ -46,11 +46,12 @@ document.getElementById("saveBtn").addEventListener("click", function () {
     row.insertCell(3).innerText = age;
     row.insertCell(4).innerText = email;
 
-    // clear inputs
+    
     document.getElementById("fname").value = "";
     document.getElementById("mname").value = "";
     document.getElementById("lname").value = "";
     document.getElementById("age").value = "";
     document.getElementById("email").value = "";
 });
+
 
